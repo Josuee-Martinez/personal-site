@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Varela", sans-serif;
+}
+
+.msg {
+  text-align: center;
+  color: #2c95c8;
+}

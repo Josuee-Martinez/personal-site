@@ -1,0 +1,17 @@
+{
+   "name": "personal-site",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "devDependencies": {},
+   "scripts": {
+      "deploy": "gh-pages -d build"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "homepage": "https://Josuee-Martinez.github.io/personal-site",
+   "dependencies": {
+      "gh-pages": "^1.2.0"
+   }
+}
