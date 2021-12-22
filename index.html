@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+         crossorigin="anonymous"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Varela&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="stylesheet" href="./style.css" />
+      <title>Josue Martinez</title>
+   </head>
+   <body>
+      <header>
+         <h1 class="logo"><a href="#home" class="logo">Josue</a></h1>
+         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+         <nav>
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#work">Work</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+         </label>
+      </header>
+
+      <section class="landing-section" id="home">
+         <div class="landing">
+            <h1 class="landing-heading">Hey there, my name is Josue´.</h1>
+            <p class="landing-paragraph">
+               I am a Software Developer and design enthusiast.
+            </p>
+         </div>
+      </section>
+
+      <section class="about-section" id="about">
+         <div class="about">
+            <h1 class="msg">About Me</h1>
+            <p>
+               Hello there, welcome to my portfolio. My name is Josue´ and I am
+               a Software Developer living in the Indianapolis area. I am a
+               person who has a high passion in web technologies and design.
+               This passion lead me into the Software development field. I
+               became fascinated with Software Development ever since I learned
+               to make Websites for the Web. I am now a graduate from
+               <a href="https://elevenfifty.org/" target="_blank" class="efa"
+                  >Eleven Fifty Academy</a
+               >
+               where I learned to turn my passion for technology into a career.
+            </p>
+         </div>
+      </section>
+
+      <section class="skills-section">
+         <div class="front-end">
+            <i class="skill-icons fas fa-palette fa-3x"></i>
+            <h1 class="msg">Front-end Skills</h1>
+            <p>React Js</p>
+            <p>Angular</p>
+            <p>HTML / XML</p>
+            <p>CSS / CSS Grid</p>
+         </div>
+
+         <div class="back-end">
+            <i class="skill-icons fas fa-laptop-code fa-3x"></i>
+            <h1 class="msg">Back-end Skills</h1>
+            <p>Node Js</p>
+            <p>MongoDB / PostgreSQL</p>
+            <p>Express Js</p>
+            <p>Sequelize / Mongoose</p>
+         </div>
+      </section>
+
+      <section class="portfolio clearfix" id="work">
+         <h1 class="msg">My Work</h1>
+
+         <figure class="project">
+            <img
+               src="img/Screen Shot 2021-01-27 at 7.26.01 PM.png"
+               alt="portfolio item"
+            />
+            <figcaption class="image-caption">
+               <a
+                  href="https://mibible.herokuapp.com/"
+                  class="button button-accent button-small"
+                  target="_blank"
+                  >View Project</a
+               >
+               <a
+                  href="https://github.com/Josuee-Martinez/bible"
+                  class="button button-accent button-small code-link"
+                  target="_blank"
+                  >View the Code</a
+               >
+            </figcaption>
+         </figure>
+
+         <figure class="project">
+            <img
+               src="img/Screen Shot 2019-09-28 at 9.21.55 PM.png"
+               alt="portfolio item"
+            />
+            <figcaption class="image-caption">
+               <a
+                  href="https://reding-indy-app.herokuapp.com"
+                  class="button button-accent button-small"
+                  target="_blank"
+                  >View Project</a
+               >
+               <a
+                  href="https://github.com/Josuee-Martinez/Reading-Indy"
+                  class="button button-accent button-small code-link"
+                  target="_blank"
+                  >View the Code</a
+               >
+            </figcaption>
+         </figure>
+
+         <figure class="project">
+            <img
+               src="img/Screen Shot 2019-08-27 at 10.25.19 PM.png"
+               alt="portfolio item"
+            />
+            <figcaption class="image-caption">
+               <a
+                  href="https://pern-library-app.herokuapp.com/login"
+                  class="button button-accent button-small"
+                  target="_blank"
+                  >View Project</a
+               >
+               <a
+                  href="https://github.com/Josuee-Martinez/open-library-sever"
+                  class="button button-accent button-small code-link"
+                  target="_blank"
+                  >View the Code</a
+               >
+            </figcaption>
+         </figure>
+      </section>
+
+      <section class="contact-section" id="contact">
+         <div class="contact">
+            <h1 class="msg">Contact Me</h1>
+
+            <form
+               action="https://formspree.io/josuemartinez3141@gmail.com"
+               method="POST"
+            >
+               <label for="name">Name</label>
+               <br />
+               <input type="text" name="name" id="name" />
+               <br />
+               <label for="email">Email</label>
+               <br />
+               <input id="email" type="email" name="_replyto" />
+               <br />
+               <label for="message">Message</label>
+               <textarea id="message"></textarea>
+               <br />
+               <button type="submit">Message me!</button>
+            </form>
+         </div>
+      </section>
+
+      <div class="contact-links">
+         <a
+            href="https://www.linkedin.com/in/josue-martinez-b5015a16a/"
+            class="social-links"
+            target="_blank"
+            ><i class="s-l fab fa-linkedin fa-3x"></i
+         ></a>
+         <a href="mailto:josuemartinez3141@gmail.com" class="social-links"
+            ><i class="s-l fas fa-envelope-square fa-3x"></i
+         ></a>
+         <a
+            href="https://github.com/Josuee-Martinez"
+            class="social-links"
+            target="_blank"
+            ><i class="s-l fab fa-github-square fa-3x"></i
+         ></a>
+      </div>
+
+      <footer class="center bg-dark">
+         <p>Designed and built by me &copy;2020</p>
+      </footer>
+   </body>
+</html>

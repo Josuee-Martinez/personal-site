@@ -1,0 +1,50 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  background-color: #f6f6f6;
+  padding: 4em 0 4em 0;
+}
+
+.about {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  background-color: #f6f6f6;
+  padding: 0 0 3em 0;
+}
+
+.front-end {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.back-end {
+  grid-column: 3/4;
+  text-align: center;
+}
+
+.efa {
+  color: #2c95c8;
+}
+
+@media (max-width: 590px) {
+  .skills-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 0 3em 0;
+  }
+
+  .front-end {
+    grid-column: 1/2;
+    margin-bottom: 3em;
+  }
+
+  .back-end {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
